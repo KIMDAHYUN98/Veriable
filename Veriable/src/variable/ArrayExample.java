@@ -18,11 +18,11 @@ public class ArrayExample {
 		}
 		System.out.println("합: " + sum);
 
-		String[] strings = { "Hello", "World", //
-				"Nice", "To", "Meet" };
-		strings[2] = "Good";
+		String[] strings = { "Hello", " World", //
+				" Nice", " To", " Meet" };
+		strings[2] = " Good";
 		for (int i = 0; i < strings.length; i++) { // strings.length : 5
-			System.out.println(strings[i]);
+			System.out.print(strings[i]);
 		}
 	}
 
