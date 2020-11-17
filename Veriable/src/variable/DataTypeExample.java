@@ -2,7 +2,7 @@ package variable;
 
 public class DataTypeExample {
 	public static void main(String[] args) {
-		byte num1 = 12;
+		byte num1 = 12; //127까지
 		short num2 = 128;
 		int num3 = 1000000000;
 		long num4 = 100000000000L;
