@@ -21,9 +21,9 @@ public class ArrayExample0 {
 		
 		// enhanced for (확장 for, 더 간단)
 		sum = 0;
-		for (double db1 : doubleAry) { // 배열(doubleAry)의 크기만큼 반복해서 실행해라. db1 = 변수
-			sum += db1;
-			//System.out.println(db1);
+		for (double j : doubleAry) { // 배열(doubleAry)의 크기만큼 반복해서 실행해라. db1 = 변수
+			sum += j;
+			//System.out.println(j);
 		}
 		System.out.println("sum : " + sum);
 	}
