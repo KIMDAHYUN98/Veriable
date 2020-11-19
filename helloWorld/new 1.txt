@@ -1,0 +1,9 @@
+package helloWorld;
+
+public class HelloWorld { public static void main(String[] args) {
+	String name = "Hong Kildong";
+	name = "홍길동";
+	System.out.println("My name is " + name);
+}
+
+}
