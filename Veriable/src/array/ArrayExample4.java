@@ -24,6 +24,42 @@ public class ArrayExample4 {
 				};
 		
 		System.out.println(intAry2.length);
+		
+		int sum = 0;
+		int avg = 0;
+		sum = intArySum(intAry2[0]);
+		System.out.println("sum[0] : " + sum);
+		avg = intAryAvg(intAry2[0]);
+		System.out.println("avg[0] : " + avg);
+		sum = intArySum(intAry2[1]);
+		System.out.println("sum[1] : " + sum);
+		avg = intAryAvg(intAry2[1]);
+		System.out.println("avg[1] : " + avg);
+		sum = intArySum(intAry2[2]);
+		System.out.println("sum[2] : " + sum);
+		avg = intAryAvg(intAry2[2]);
+		System.out.println("avg[2] : " + avg);
+		
+		
+		
+	}
+	
+	public static int intArySum(int[] ary) {
+		int sum = 0;
+		for(int i : ary) {
+			sum += i;
+		}
+		return sum;
+	}
+	
+	public static int intAryAvg(int[] ary) {
+		int sum = 0;
+		int avg = 0;
+		for(int j : ary) {
+			sum += j;
+			avg = sum/ary.length;
+		}
+		return avg;
 		}
 	}
 
