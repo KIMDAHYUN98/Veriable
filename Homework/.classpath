@@ -6,5 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/mangg/OneDrive/바탕 화면/sql_수업자료/sqldeveloper/sqlcl/lib/ojdbc7.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
